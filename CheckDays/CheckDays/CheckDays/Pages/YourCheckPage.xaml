@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CheckDays.Pages.YourCheckPage"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Background>
+        <LinearGradientBrush>
+            <GradientStop Color="#eaeae6"
+                          Offset="0.3"/>
+
+            <GradientStop Color="#bababa"
+                          Offset="1.0"/>
+        </LinearGradientBrush>
+    </ContentPage.Background>
+    <ContentPage.Content>
+        <StackLayout>
+            <Editor HeightRequest="200" Placeholder="Your text..."/>
+            <Label Text="StartTime"/>
+            <DatePicker>
+                
+            </DatePicker>
+            <Label Text="EndTime"/>
+            <DatePicker>
+
+            </DatePicker>
+            <Picker Title="Type">
+                <Picker.Items>
+                    <x:String>qwe</x:String>
+                    <x:String>qwe</x:String>
+                    <x:String>qwe</x:String>
+                    <x:String>qwe</x:String>
+                    <x:String>qwe</x:String>
+                    <x:String>qwe</x:String>
+                </Picker.Items>
+            </Picker>
+            <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand">
+                <Frame HorizontalOptions="StartAndExpand" WidthRequest="40" Padding="10" Margin="20,0,0,20" CornerRadius="50">
+                    <ImageButton BackgroundColor="Transparent" Margin="0,0,5,0" Clicked="BackButtonClicked" Source="leftarrow.png"/>
+                </Frame>
+                <Frame HorizontalOptions="EndAndExpand" WidthRequest="40" Padding="10" Margin="0,0,20,20" CornerRadius="50">
+                    <ImageButton BackgroundColor="Transparent" Margin="5" Source="check.png"/>
+                </Frame>
+                
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

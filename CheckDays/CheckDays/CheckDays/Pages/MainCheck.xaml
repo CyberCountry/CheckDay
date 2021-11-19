@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CheckDays.Pages.MainCheck"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             NavigationPage.HasNavigationBar="False"
+             android:TabbedPage.ToolbarPlacement="Bottom" BarBackgroundColor="#504f44" BarTextColor="White" BackgroundColor="#eaeae6" SelectedTabColor="White" UnselectedTabColor="Black">
+    <TabbedPage.Background>
+        <LinearGradientBrush>
+            <GradientStop Color="#eaeae6"
+                          Offset="0.3"/>
+
+            <GradientStop Color="#bababa"
+                          Offset="1.0"/>
+        </LinearGradientBrush>
+    </TabbedPage.Background>
+    <!--Pages can be added as references or inline-->
+    <ContentPage Title="Main" IconImageSource="home.png">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="0.5*"/>
+            </Grid.ColumnDefinitions>
+            <StackLayout Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="0" BackgroundColor="#504f44" Orientation="Horizontal">
+                <Frame BackgroundColor="Transparent">
+                    <Image Source="mainlogo.png"></Image>
+                </Frame>
+                <Label Text="Cheker`s" VerticalOptions="Center" TextColor="White" FontSize="26" FontAttributes="Bold" HorizontalOptions="EndAndExpand" Margin="0,0,20,0"/>
+            </StackLayout>
+            <Label Text="Loem25" Grid.Column="1" Grid.Row="1" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            <Label Text="aaa" Grid.Column="1" Grid.Row="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            <Button Text="comment" Grid.Row="3" Grid.Column="1" Margin="30,55" CornerRadius="30" BackgroundColor="#504f44" TextColor="White" FontAttributes="None" TextTransform="Lowercase" FontSize="18"/>
+        </Grid>
+    </ContentPage>
+
+    <ContentPage Title="Chekers" IconImageSource="clock.png">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="0.5*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackLayout Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" BackgroundColor="#504f44" Orientation="Horizontal">
+                <Frame HorizontalOptions="StartAndExpand" BackgroundColor="Transparent" Padding="30">
+                    <ImageButton BackgroundColor="Transparent" Source="plus.png" Clicked="ButtonPlusPressed"/>
+                </Frame>
+                <Frame HorizontalOptions="CenterAndExpand" BackgroundColor="Transparent" Padding="30">
+                    <ImageButton  BackgroundColor="Transparent" Source="minus.png" Clicked="ButtonMinusPressed"/>
+                </Frame>
+                <Frame HorizontalOptions="EndAndExpand" BackgroundColor="Transparent" Padding="30">
+                    <ImageButton  BackgroundColor="Transparent" Source="star.png"/>
+                </Frame>
+            </StackLayout>
+            <ScrollView Grid.Row="1" Grid.RowSpan="3" Grid.Column="0" Grid.ColumnSpan="3">
+                <StackLayout x:Name="MainCheckedList">
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage>
+</TabbedPage>

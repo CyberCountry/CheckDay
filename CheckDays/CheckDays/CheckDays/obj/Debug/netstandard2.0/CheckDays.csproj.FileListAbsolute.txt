@@ -1,0 +1,15 @@
+D:\CheckDay\Application\CheckDay\CheckDays\CheckDays\CheckDays\bin\Debug\netstandard2.0\CheckDays.deps.json
+D:\CheckDay\Application\CheckDay\CheckDays\CheckDays\CheckDays\bin\Debug\netstandard2.0\CheckDays.dll
+D:\CheckDay\Application\CheckDay\CheckDays\CheckDays\CheckDays\bin\Debug\netstandard2.0\ref\CheckDays.dll
+D:\CheckDay\Application\CheckDay\CheckDays\CheckDays\CheckDays\bin\Debug\netstandard2.0\CheckDays.pdb
+D:\CheckDay\Application\CheckDay\CheckDays\CheckDays\CheckDays\obj\Debug\netstandard2.0\CheckDays.csprojAssemblyReference.cache
+D:\CheckDay\Application\CheckDay\CheckDays\CheckDays\CheckDays\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\CheckDay\Application\CheckDay\CheckDays\CheckDays\CheckDays\obj\Debug\netstandard2.0\CheckDays.AssemblyInfoInputs.cache
+D:\CheckDay\Application\CheckDay\CheckDays\CheckDays\CheckDays\obj\Debug\netstandard2.0\CheckDays.AssemblyInfo.cs
+D:\CheckDay\Application\CheckDay\CheckDays\CheckDays\CheckDays\obj\Debug\netstandard2.0\CheckDays.csproj.CoreCompileInputs.cache
+D:\CheckDay\Application\CheckDay\CheckDays\CheckDays\CheckDays\obj\Debug\netstandard2.0\XamlC.stamp
+D:\CheckDay\Application\CheckDay\CheckDays\CheckDays\CheckDays\obj\Debug\netstandard2.0\CheckDays.dll
+D:\CheckDay\Application\CheckDay\CheckDays\CheckDays\CheckDays\obj\Debug\netstandard2.0\ref\CheckDays.dll
+D:\CheckDay\Application\CheckDay\CheckDays\CheckDays\CheckDays\obj\Debug\netstandard2.0\CheckDays.pdb
+D:\CheckDay\Application\CheckDay\CheckDays\CheckDays\CheckDays\obj\Debug\netstandard2.0\Pages\MainCheck.xaml.g.cs
+D:\CheckDay\Application\CheckDay\CheckDays\CheckDays\CheckDays\obj\Debug\netstandard2.0\Pages\YourCheckPage.xaml.g.cs
